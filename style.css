@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+header {
+  text-align: center;
+}
+
+img {
+  margin-top: 3%;
+
+  max-width: 40%;
+  max-height: 30%;
+  object-fit: cover;
+
+}
+
+body {
+  font-family: sans-serif;
+
+}
+
+main {
+  margin-top: 5%;
+
+}
+
+.titulo-principal {
+  position: relative;
+  margin-left: 28%;
+  margin-bottom: 2%;
+
+}
+
+.campos-obrigatorios {
+  position: relative;
+  margin-left: 28%;
+  margin-bottom: 5%;
+}
+
+.nome-cpf {
+  position: relative;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.nome-cpf input {
+  position: relative;
+  height: 25px;
+  width: 250px;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+
+
+.nome-cpf label {
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 10%;
+
+}
+
+
+
+.endereco {
+
+  margin-top: 10%;
+}
+
+.endereco label {
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 8%;
+
+}
+
+.endereco input {
+  position: relative;
+  height: 25px;
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.endereco {
+  margin-left: 20%;
+}
+
+.comentario input {
+  width: 80%;
+  height: 25px;
+  margin-left: 10%;
+
+  margin-top: 5%;
+
+}
+
+.comentario label {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+button {
+
+  width: 70px;
+  background-color: black;
+  color: white;
+  margin-left: 80%;
+
+  margin-top: 3%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+
+}
+
+.titulo-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#endereco-footer {
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 90px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
